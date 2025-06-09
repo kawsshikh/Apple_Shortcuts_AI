@@ -13,6 +13,12 @@ Voice-Activated AI: Interact with Gemini using "Hey Siri" and your custom trigge
 Seamless Gemini Integration: Leverages the Gemini REST API for powerful AI responses.
 Hands-Free Interaction: Get instant answers, summaries, creative content, and more, all by speaking.
 Simple Setup: Quick configuration to get your AI assistant up and running.
+<p align="center">
+  <img src="/screenshots/apple_laptops.jpg" width="400" alt="Laptop suggestion response by Siri">
+  <img src="screenshots/AI_laptops.jpg" width="400" alt="Laptop suggestion response by Siri-Gemini">
+</p>
+
+
 ![Siri answered](/screenshots/apple_laptops.jpg "Siri's answer to Laptop Suggestions")
 ---
 
