@@ -13,24 +13,26 @@ Voice-Activated AI: Interact with Gemini using "Hey Siri" and your custom trigge
 Seamless Gemini Integration: Leverages the Gemini REST API for powerful AI responses.
 Hands-Free Interaction: Get instant answers, summaries, creative content, and more, all by speaking.
 Simple Setup: Quick configuration to get your AI assistant up and running.
+---
+
+** Response to the same question from Siri vs Siri-Gemini
+
 <p align="center">
   <img src="/screenshots/apple_laptops.jpg" width="400" alt="Laptop suggestion response by Siri">
   <img src="screenshots/AI_laptops.jpg" width="400" alt="Laptop suggestion response by Siri-Gemini">
 </p>
 
-
-![Siri answered](/screenshots/apple_laptops.jpg "Siri's answer to Laptop Suggestions")
 ---
 
 **🛠️ How It Works
 This Shortcut acts as a clever intermediary:
 
-You activate the Shortcut via Siri (e.g., "Hey Siri, Be Smart").
-Your voice input is captured by the Shortcut.
-The Shortcut constructs an HTTP POST request containing your spoken query.
-This request is sent to the Google Gemini API endpoint.
-Gemini processes your query and returns a JSON response.
-The Shortcut parses this JSON, extracts Gemini's answer, and can display it as text or even speak it back to you!
+- You activate the Shortcut via Siri (e.g., "Hey Siri, Be Smart").
+- Your voice input is captured by the Shortcut.
+- The Shortcut constructs an HTTP POST request containing your spoken query.
+- This request is sent to the Google Gemini API endpoint.
+- Gemini processes your query and returns a JSON response.
+- The Shortcut parses this JSON, extracts Gemini's answer, and can display it as text or even speak it back to you!
 ---
 
 🚀 Getting Started
@@ -47,11 +49,26 @@ Prerequisites:
 - All 
 - Configure Your Gemini API Key (Crucial!):
 - **NEVER share your API Key publicly or commit it directly to GitHub!
+- When you trigger the shortcut for the first time, it asks you to insert the API Key. Insert the key that you obtained from Gemini.
+  <p align="center">
+  <img src="/screenshots/initial_api.jpg" width="400" alt="Laptop suggestion response by Siri">
+  </p>
 
+---
 
 💡 Usage
-Simply say "Hey Siri, [Your Shortcut Name/Phrase]" (e.g., "Hey Siri, Be Smart").
-Siri will prompt you for your input.
-Speak your query or prompt for Gemini.
-Wait a moment, and Gemini's response will appear on your screen and/or be spoken by Siri.
+- Simply say "Hey Siri, [Your Shortcut Name/Phrase]" (e.g., "Hey Siri, Be Smart").
+- Siri will prompt you for your input.
+- Speak your query or prompt for Gemini.
+- Wait a moment, and Gemini's response will appear on your screen and/or be spoken by Siri.
+
+---
+
+Future Scope
+The following enhancements are envisioned for the application's future development:
+- Continuous Conversational Context: With further fine-tuning and optimization, the application can be scaled to support a more robust and context-aware conversational experience. This involves enabling the underlying RestAPI to intelligently remember past interactions, allowing for continuous and coherent dialogues rather than single-turn responses. This would significantly improve user engagement and the natural flow of conversations.
+- Support for Non-Textual Content (Multimedia Integration): Future iterations aim to expand the application's capabilities to process and respond to non-textual inputs, such as images, audio, or video. This integration of multimedia content would open up new use cases and enrich user interaction. It is important to note that this advanced functionality will likely require leveraging paid APIs or subscriptions from external service providers.
+
+---
+
 
